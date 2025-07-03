@@ -1,4 +1,4 @@
-package com.bitshaven.springboot.models;
+package com.bitshaven.bank.models;
 
 import lombok.Data;
 import lombok.Getter;

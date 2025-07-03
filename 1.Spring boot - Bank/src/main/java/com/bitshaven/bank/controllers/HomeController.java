@@ -1,10 +1,8 @@
-package com.bitshaven.springboot.controllers;
+package com.bitshaven.bank.controllers;
 
-import com.bitshaven.springboot.models.Hello;
-import org.apache.commons.logging.Log;
+import com.bitshaven.bank.models.Hello;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -22,7 +20,7 @@ public class HomeController {
     @RequestMapping("/")
     @ResponseBody
     String HelloWorld(){
-        return "Hello World";
+        return "Bank - welcome Page";
     }
 
     @RequestMapping(value = "/hello")
